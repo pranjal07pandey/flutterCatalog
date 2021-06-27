@@ -24,7 +24,7 @@ class ItemWidget extends StatelessWidget {
           ),
         ),
         onTap: (){
-          print('item pressed');
+          print('${item.id} pressed');
         },
       ),
     );
